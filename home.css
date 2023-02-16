@@ -1,0 +1,111 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  border-color: #000000;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e6e4e4;
+}
+.home-image {
+  top: 100px;
+  left: 400px;
+  position: absolute;
+  align-self: center;
+  object-fit: cover;
+}
+.home-container1 {
+  top: 120px;
+  flex: 0 0 auto;
+  left: 425px;
+  right: 400px;
+  width: 400px;
+  bottom: 220px;
+  height: 560px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: #f3f0f0;
+  border-style: solid;
+  border-width: 3px;
+}
+.home-container2 {
+  top: 600px;
+  flex: 0 0 auto;
+  left: 400px;
+  width: 400px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-text {
+  left: 25px;
+  color: rgb(249, 245, 245);
+  width: 400px;
+  bottom: 100px;
+  height: 30px;
+  position: absolute;
+  align-self: stretch;
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-transform: uppercase;
+}
+.home-container3 {
+  top: 630px;
+  flex: 0 0 auto;
+  left: 400px;
+  width: 400px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.home-text1 {
+  left: 25px;
+  color: rgb(249, 245, 245);
+  width: 400px;
+  bottom: 100px;
+  height: 40px;
+  position: absolute;
+  font-size: 40px;
+  align-self: stretch;
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+  padding-left: 00px;
+  padding-right: 00px;
+  text-transform: capitalize;
+}
+.home-container4 {
+  top: 600px;
+  flex: 0 0 auto;
+  left: 475px;
+  width: 300px;
+  height: 60px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  background-color: #D9D9D9;
+}
+.home-button {
+  left: 0px;
+  color: rgb(12, 12, 12);
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  line-height: 2.5;
+  border-width: 0px;
+  text-transform: uppercase;
+  background-color: rgba(247, 206, 87, 0.62);
+}
